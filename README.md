@@ -26,3 +26,9 @@ The algorithm processes each frame through the following steps:
 3. **Filtering:** Selects the largest contour by area to eliminate unwanted background noise.
 4. **Accumulation:** Every 2 frames, the detected boundary is drawn onto a white canvas to build the static accumulation map.
 
+---
+
+## 👤 Author
+
+Minh Hung Le - Elias
+
