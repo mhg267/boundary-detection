@@ -8,7 +8,7 @@ Here is a comparison between the raw input data and the processed algorithmic ou
 
 | Raw Video (Input) | Boundary Tracking (Output) |
 |---|---|
-| ![Raw Video](assets/raw_input.gif) | ![Output Video](assets/waterflow_contour.gif) |
+| ![Raw Video](data/raw_video_waterflow.gif) | ![Output Video](assets/waterflow_contour.gif) |
 
 ## 🖼️ Boundary Accumulation Map
 
