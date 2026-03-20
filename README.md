@@ -26,9 +26,3 @@ The algorithm processes each frame through the following steps:
 3. **Filtering:** Selects the largest contour by area to eliminate unwanted background noise.
 4. **Accumulation:** Every 2 frames, the detected boundary is drawn onto a white canvas to build the static accumulation map.
 
-## 💻 Installation & Usage
-
-1. **Clone the repository:**
-```bash
-git clone [https://github.com/mhg267/boundary-detection.git](https://github.com/mhg267/boundary-detection.git)
-cd boundary-detection
