@@ -32,9 +32,9 @@ def boundary_detection(input, output_video, output_image):
             largest_contour = max(contours, key=cv2.contourArea)
             cv2.drawContours(egde_frame, [largest_contour], -1, (0, 0, 255), 1)
 
-            if frame_count == 304:
-                cv2.imwrite("original_frame.png", frame)
-                cv2.imwrite("edge_frame.png", egde_frame)
+            # if frame_count == 304:                         # Optional
+            #     cv2.imwrite("original_frame.png", frame)
+            #     cv2.imwrite("edge_frame.png", egde_frame)
 
             if frame_count % 2 == 0:
                 cv2.drawContours(canvas, [largest_contour], -1, (0, 0, 0), 1)
@@ -52,7 +52,7 @@ def boundary_detection(input, output_video, output_image):
 
 
 if __name__ == '__main__':
-    input_video = "/Users/minhhung/Documents/Code/Python/Computer Vision/Data/raw_video_waterflow.mp4"
+    input_video = "raw_video_waterflow.mp4"
     output_video = "waterflow_contour.mp4"
     output_image = "waterflow_accumulation.png"
 
